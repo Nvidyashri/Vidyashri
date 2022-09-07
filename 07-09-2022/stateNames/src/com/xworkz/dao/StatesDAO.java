@@ -1,4 +1,4 @@
-package com.xworkz.javadao.dao;
+package com.xworkz.dao;
 
 public interface StatesDAO {
 	

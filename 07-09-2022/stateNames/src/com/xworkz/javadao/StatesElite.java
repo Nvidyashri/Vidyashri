@@ -1,6 +1,6 @@
 package com.xworkz.javadao;
 
-import com.xworkz.implementr.StateDAOImplementr;
+import com.xworkz.implementor.StateDAOImplementr;
 
 public class StatesElite {
 
@@ -29,7 +29,6 @@ public class StatesElite {
 		implementr.save("UttaraKhand");
 		
 		implementr.printlnAllStates();
-		
 	}
 
 }

@@ -1,10 +1,10 @@
-package com.xworkz.implementr;
+package com.xworkz.implementor;
 
-import com.xworkz.javadao.dao.StatesDAO;
+import com.xworkz.dao.StatesDAO;
 
-public class StateDAOImplementr implements StatesDAO{
+public class StateDAOImplementr implements StatesDAO {
 	
-	private String[] stateNames = new String[20];
+private String[] stateNames = new String[20];
 	
     @Override
    public boolean save(String StateNames) {
@@ -25,6 +25,8 @@ public class StateDAOImplementr implements StatesDAO{
    	 }
    	
    }
+	
+	
 	
 	
 
