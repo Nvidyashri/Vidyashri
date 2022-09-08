@@ -1,12 +1,12 @@
-package com.xworkz.javadao;
+package com.xwrkz.dao.elite;
 
-import com.xworkz.implementor.StateDAOImplementr;
+import com.xwrkz.implementdao.StateDAOImplementer;
 
 public class StatesElite {
 
 	public static void main(String[] args) {
 
-		StateDAOImplementr implementr=new StateDAOImplementr();
+		StateDAOImplementer implementr = new StateDAOImplementer();
 		implementr.save("Assam");
 		implementr.save("Bihar");
 		implementr.save("Chattisghar");
@@ -27,8 +27,9 @@ public class StatesElite {
 		implementr.save("Rajastan");
 		implementr.save("Tamil Nadu");
 		implementr.save("UttaraKhand");
-		
+
 		implementr.printlnAllStates();
+
 	}
 
 }
